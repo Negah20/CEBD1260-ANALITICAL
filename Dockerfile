@@ -1,3 +1,5 @@
 FROM python:3
-ADD my_script.py /
-RUN pip install pystrich 
+ADD project /project
+RUN pip install conda
+RUN ["bash"]
+
